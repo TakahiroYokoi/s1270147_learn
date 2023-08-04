@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: s1270147-learn
+Version: 2023.8.4
+Summary: This softwear is being developed at the University of Aizu, Aizu-Wakamatsu, Fukushima, Japan
+Home-page: https://github.com/TakahiroYokoi/s1270147_learn
+Author: Takahiro Yokoi
+Author-email: s1270147@u-aizu.ac.jp
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: gpu
+Provides-Extra: spark
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
+
+# s1270147_learn
+This is submission for Exercise 14.
+
+

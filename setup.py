@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = 'pami',
+    name = 's1270147_learn',
     version = '2023.08.04',
     author = 'Takahiro Yokoi',
     author_email = 's1270147@u-aizu.ac.jp',
@@ -20,21 +20,22 @@ setuptools.setup(
         'plotly',
         'matplotlib',
         'resource',
+        'pami',
         'validators',
         'urllib3',
         'Pillow',
         'numpy',
     ],
     extras_require={
-        'gpu':['cupy', 'pycuda'],
+        'gpu':['cupy', 'pycuda', 'pami[gpu]'],
         'spark':['pyspark'],
         'dev':['twine', 'setuptools', 'build'],
         'all':['cupy', 'pycuda', 'pyspark', 'twine', 'setuptools', 'build']
     },
     classifiers=[
         'Development Status :: 4 - Beta',
-        'Programming Lamguage :: Python :: 3',
-        'License :: OSI Approved :: GUN General Public License v3 (GPLv3)',
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',
     ],
     python_requires = '>=3.5',

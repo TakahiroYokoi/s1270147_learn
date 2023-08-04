@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+s1270147_learn/__init__.py
+s1270147_learn/run.py
+s1270147_learn.egg-info/PKG-INFO
+s1270147_learn.egg-info/SOURCES.txt
+s1270147_learn.egg-info/dependency_links.txt
+s1270147_learn.egg-info/requires.txt
+s1270147_learn.egg-info/top_level.txt
+s1270147_learn/statistics/__init__.py
+s1270147_learn/statistics/frequenciesOfItems.py
+s1270147_learn/visualization/__init__.py
+s1270147_learn/visualization/heatMapItemsFrequencies.py
